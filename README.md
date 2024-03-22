@@ -9,10 +9,10 @@ Driver Monitoring System
 ## MCU 
 AVR ATmega32 
 ## Perepherals 
-80 characters LCD (4X20) with backlight. 
-4X4 Matrix Keypad Unit 
-10 Bit Resolution ADC (Analog to Digital Converter) 
-External INterrupt Channel 
+80 characters LCD (4X20) with backlight\n 
+4X4 Matrix Keypad Unit\n 
+10 Bit Resolution ADC (Analog to Digital Converter)\n 
+External INterrupt Channel\n 
 Timer Module 
 Internal EEPROM
 ## FEATURES
