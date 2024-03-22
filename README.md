@@ -19,7 +19,7 @@ AVR ATmega32
 
 10 Bit Resolution ADC (Analog to Digital Converter)
 
-External INterrupt Channel
+External Interrupt Channel
 
 Timer Module
 
