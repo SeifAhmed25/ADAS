@@ -23,11 +23,11 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
   9 .debug_frame  00000938  00000000  00000000  0000a468  2**2
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_str    000012aa  00000000  00000000  0000ada0  2**0
+ 10 .debug_str    000012a4  00000000  00000000  0000ada0  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_loc    00001a07  00000000  00000000  0000c04a  2**0
+ 11 .debug_loc    00001a07  00000000  00000000  0000c044  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_ranges 00000350  00000000  00000000  0000da51  2**0
+ 12 .debug_ranges 00000350  00000000  00000000  0000da4b  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -1720,10 +1720,10 @@ int main(void)
 	APP_Void_ReadClockFromEEPROM();
      bd8:	0e 94 cb 05 	call	0xb96	; 0xb96 <APP_Void_ReadClockFromEEPROM>
 	/**************************** SET EXTERNAL INTERRUPT AND TIMER0 CALL BACK FUNCTION	**/
-	M_EXTINT_Void_SetCallBack(INT0_CHANNEL,&APP_Void_UpdateGearState); 
+	M_EXTINT_Void_SetCallBack(INT1_CHANNEL,APP_Void_UpdateGearState); 
      bdc:	68 ee       	ldi	r22, 0xE8	; 232
      bde:	71 e0       	ldi	r23, 0x01	; 1
-     be0:	80 e0       	ldi	r24, 0x00	; 0
+     be0:	81 e0       	ldi	r24, 0x01	; 1
      be2:	0e 94 5f 0c 	call	0x18be	; 0x18be <M_EXTINT_Void_SetCallBack>
 	M_Timer_Void_SetCallBack(&ADAS_SYSTEM_Timer_Handler);
      be6:	86 e1       	ldi	r24, 0x16	; 22

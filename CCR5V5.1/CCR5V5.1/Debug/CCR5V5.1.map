@@ -1234,45 +1234,45 @@ END GROUP
  .debug_frame   0x000006e0      0x13c MCAL/EXTINT/EXTINT_Prog.o
  .debug_frame   0x0000081c      0x11c MCAL/TIMER/Timer_Prog.o
 
-.debug_str      0x00000000     0x12aa
+.debug_str      0x00000000     0x12a4
  *(.debug_str)
  .debug_str     0x00000000      0x196 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
- .debug_str     0x00000196      0x32f APP/CCS_SETUP/CSS.o
-                                0x363 (size before relaxing)
- .debug_str     0x000004c5      0x1e2 APP/DASHBOARD_SYS_CLK_SETUP/DASHBOARD_System_Clock_Prog.o
-                                0x36d (size before relaxing)
- .debug_str     0x000006a7      0x4af APP/DASH_BOARD_DISPLAY_SETUP/APP_LCD.o
-                                0x758 (size before relaxing)
- .debug_str     0x00000b56       0x4f APP/DIVER_MON_SYS_SETUP/DRIV_MONITORING.o
-                                0x1c9 (size before relaxing)
- .debug_str     0x00000ba5       0x97 APP/LOAD_TO_EEPROM/APP_SAVE_TO_EEPROM.o
-                                0x2be (size before relaxing)
- .debug_str     0x00000c3c       0xaa APP/main.o
-                                0x4a8 (size before relaxing)
- .debug_str     0x00000ce6       0x48 APP/SL_SYS_SETUP/SL.o
-                                0x1f7 (size before relaxing)
- .debug_str     0x00000d2e       0xb9 HAL/BUZZER/Buzzer_Prog.o
-                                0x2b6 (size before relaxing)
- .debug_str     0x00000de7       0xaf HAL/KEYPAD/Keypad_Prog.o
-                                0x2dd (size before relaxing)
- .debug_str     0x00000e96       0xb6 HAL/LCD/LCD_Prog.o
-                                0x33f (size before relaxing)
- .debug_str     0x00000f4c       0x48 HAL/LED/LED_Prog.o
-                                0x285 (size before relaxing)
- .debug_str     0x00000f94       0x57 HAL/PUSH_PUTTON/PushButton_Prog.o
-                                0x27e (size before relaxing)
- .debug_str     0x00000feb       0x15 HAL/RELAY/Relay.o
-                                0x1cb (size before relaxing)
- .debug_str     0x00001000       0x3c MCAL/ADC/ADC_Prog.o
-                                0x1ae (size before relaxing)
- .debug_str     0x0000103c       0x6b MCAL/DIO/DIO_Prog.o
-                                0x224 (size before relaxing)
- .debug_str     0x000010a7       0x25 MCAL/EEPROM/EPPROM.o
-                                0x1a1 (size before relaxing)
- .debug_str     0x000010cc       0x90 MCAL/EXTINT/EXTINT_Prog.o
-                                0x242 (size before relaxing)
- .debug_str     0x0000115c      0x14e MCAL/TIMER/Timer_Prog.o
-                                0x35c (size before relaxing)
+ .debug_str     0x00000196      0x329 APP/CCS_SETUP/CSS.o
+                                0x35d (size before relaxing)
+ .debug_str     0x000004bf      0x1e2 APP/DASHBOARD_SYS_CLK_SETUP/DASHBOARD_System_Clock_Prog.o
+                                0x367 (size before relaxing)
+ .debug_str     0x000006a1      0x4af APP/DASH_BOARD_DISPLAY_SETUP/APP_LCD.o
+                                0x752 (size before relaxing)
+ .debug_str     0x00000b50       0x4f APP/DIVER_MON_SYS_SETUP/DRIV_MONITORING.o
+                                0x1c3 (size before relaxing)
+ .debug_str     0x00000b9f       0x97 APP/LOAD_TO_EEPROM/APP_SAVE_TO_EEPROM.o
+                                0x2b8 (size before relaxing)
+ .debug_str     0x00000c36       0xaa APP/main.o
+                                0x4a2 (size before relaxing)
+ .debug_str     0x00000ce0       0x48 APP/SL_SYS_SETUP/SL.o
+                                0x1f1 (size before relaxing)
+ .debug_str     0x00000d28       0xb9 HAL/BUZZER/Buzzer_Prog.o
+                                0x2b0 (size before relaxing)
+ .debug_str     0x00000de1       0xaf HAL/KEYPAD/Keypad_Prog.o
+                                0x2d7 (size before relaxing)
+ .debug_str     0x00000e90       0xb6 HAL/LCD/LCD_Prog.o
+                                0x339 (size before relaxing)
+ .debug_str     0x00000f46       0x48 HAL/LED/LED_Prog.o
+                                0x27f (size before relaxing)
+ .debug_str     0x00000f8e       0x57 HAL/PUSH_PUTTON/PushButton_Prog.o
+                                0x278 (size before relaxing)
+ .debug_str     0x00000fe5       0x15 HAL/RELAY/Relay.o
+                                0x1c5 (size before relaxing)
+ .debug_str     0x00000ffa       0x3c MCAL/ADC/ADC_Prog.o
+                                0x1a8 (size before relaxing)
+ .debug_str     0x00001036       0x6b MCAL/DIO/DIO_Prog.o
+                                0x21e (size before relaxing)
+ .debug_str     0x000010a1       0x25 MCAL/EEPROM/EPPROM.o
+                                0x19b (size before relaxing)
+ .debug_str     0x000010c6       0x90 MCAL/EXTINT/EXTINT_Prog.o
+                                0x23c (size before relaxing)
+ .debug_str     0x00001156      0x14e MCAL/TIMER/Timer_Prog.o
+                                0x356 (size before relaxing)
 
 .debug_loc      0x00000000     0x1a07
  *(.debug_loc)

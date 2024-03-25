@@ -42,7 +42,7 @@ int main(void)
 	APP_Void_ReadDistanceFromEEPROM();
 	APP_Void_ReadClockFromEEPROM();
 	/**************************** SET EXTERNAL INTERRUPT AND TIMER0 CALL BACK FUNCTION	**/
-	M_EXTINT_Void_SetCallBack(INT0_CHANNEL,&APP_Void_UpdateGearState); 
+	M_EXTINT_Void_SetCallBack(INT1_CHANNEL,APP_Void_UpdateGearState); 
 	M_Timer_Void_SetCallBack(&ADAS_SYSTEM_Timer_Handler);
 	/****************************			INIT TIMER0					*****/
 	M_Timer_Void_TimerInit();
